@@ -9,6 +9,11 @@
     padding: 5px;
 }
 
+.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
 .bg-container {
     height: 100vh;
     background-image: url("https://images.pexels.com/photos/16850325/pexels-photo-16850325/free-photo-of-island-and-sea.jpeg");
@@ -236,6 +241,12 @@
 
 .rating-icon {
     color: #d0b200;
+}
+
+.hotel-room-description-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hotel-book-button {
